@@ -1,11 +1,10 @@
-import Footer from "./layouts/Footer.jsx";
-import Header from "./layouts/Header.jsx";
+import Footer from "./components/Footer/Footer.jsx";
+import Header from "./components/Header/Header.jsx";
 
 function App() {
   return (
     <div className="App">
       <Header />
-
       <Footer />
     </div>
   );
