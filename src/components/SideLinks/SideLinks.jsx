@@ -19,10 +19,10 @@ export default function SideLinks() {
   return (
     <animated.aside style={spring} className="side-links">
       <div className="links-box">
-        <a href={siteInfo.github.url} target="_blank" className="link">
+        <a href={siteInfo.github.url} target="blank" className="link">
           <FaGithub />
         </a>
-        <a href={siteInfo.blog.url} target="_blank" className="link">
+        <a href={siteInfo.blog.url} target="blank" className="link">
           <FaLinkedin />
         </a>
       </div>
