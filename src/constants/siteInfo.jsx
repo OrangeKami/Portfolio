@@ -6,7 +6,6 @@ export const siteInfo = {
     title: "OrangeKami",
     url: "https://github.com/ORangeKami",
   },
-
   Linkedin: "chenzhang62",
   firstName: "Chen",
   lastName: "Zhang",
