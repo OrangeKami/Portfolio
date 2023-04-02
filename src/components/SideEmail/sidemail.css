@@ -1,4 +1,4 @@
-.anchor-mail {
+.side-mail {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,7 +9,7 @@
     z-index: 30;
 }
 
-.anchor-mail .mail {
+.side-mail .mail {
     transform: rotate(90deg);
     text-decoration: none;
     color: var(--primary-570);
@@ -19,18 +19,18 @@
     transition: all var(--ease-out-sine) var(--ms200);
 }
 
-.anchor-mail .mail:is(:hover, :active, :focus) {
+.side-mail .mail:is(:hover, :active, :focus) {
     color: var(--primary-600);
 }
 
-.anchor-mail .decoration {
+.side-mail .decoration {
     width: 1px;
     height: 4rem;
     background-color: var(--primary-500);
 }
 
 @media only screen and (max-width: 50em) {
-    .anchor-mail {
+    .side-mail {
         display: none;
     }
 }

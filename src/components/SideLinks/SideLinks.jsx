@@ -22,7 +22,7 @@ export default function SideLinks() {
         <a href={siteInfo.github.url} target="blank" className="link">
           <FaGithub />
         </a>
-        <a href={siteInfo.blog.url} target="blank" className="link">
+        <a href={siteInfo.Linkedin.url} target="blank" className="link">
           <FaLinkedin />
         </a>
       </div>

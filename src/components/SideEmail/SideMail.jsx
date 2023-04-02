@@ -1,7 +1,7 @@
 import React from 'react'
 import { animated, useSpring } from "@react-spring/web";
 import { siteInfo } from "../../constants/siteInfo";
-import "./sideemail.css"
+import "./sidemail.css"
 
 export default function SideEmail() {
  const spring = useSpring({
@@ -18,7 +18,7 @@ export default function SideEmail() {
    },
  });
  return (
-   <animated.aside style={spring} className="anchor-mail">
+   <animated.aside style={spring} className="side-mail">
      <a href={`mailto:${siteInfo.email}`} className="mail" title={`${siteInfo.email}`}>
        {`${siteInfo.email}`}
      </a>
