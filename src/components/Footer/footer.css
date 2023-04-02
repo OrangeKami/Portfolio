@@ -15,14 +15,4 @@
     text-align: center;
 }
 
-.text-box .text .external-link {
-    color: var(--neutral-800);
-    font-weight: 700;
-    text-decoration: none;
-    transition: all var(--ease-out-sine) var(--ms200);
-    position: relative;
-}
 
-.text-box .text .external-link:is(:hover, :focus-within) {
-    color: var(--primary-600);
-}
