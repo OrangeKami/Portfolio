@@ -1,6 +1,7 @@
 import { useInView, animated } from "@react-spring/web";
 import "./about.css";
-const About = () => {
+
+export default function About() {
   const [ref, springs] = useInView(
     () => ({
       from: {
@@ -37,4 +38,4 @@ const About = () => {
   );
 };
 
-export default About;
+

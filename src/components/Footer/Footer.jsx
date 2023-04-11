@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import { siteInfo } from "../../constants/siteInfo";
+import { siteInfo } from "../../constants/SiteInfo";
 
 export default function Footer() {
   const date = new Date();

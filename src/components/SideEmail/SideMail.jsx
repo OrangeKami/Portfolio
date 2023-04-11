@@ -1,6 +1,6 @@
 import React from 'react'
 import { animated, useSpring } from "@react-spring/web";
-import { siteInfo } from "../../constants/siteInfo";
+import { siteInfo } from "../../constants/SiteInfo";
 import "./sidemail.css"
 
 export default function SideEmail() {

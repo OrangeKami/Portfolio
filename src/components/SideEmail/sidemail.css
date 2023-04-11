@@ -16,7 +16,8 @@
     font-family: var(--ff-mono);
     font-size: var(--fs-sm);
     font-weight: 700;
-    transition: all var(--ease-out-sine) var(--ms200);
+    letter-spacing: 0.5px;
+    transition: allvar(--ease-out-sine) var(--ms200);
 }
 
 .side-mail .mail:is(:hover, :active, :focus) {

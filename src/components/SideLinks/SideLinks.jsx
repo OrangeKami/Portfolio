@@ -1,6 +1,6 @@
 import { animated, useSpring } from "@react-spring/web";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { siteInfo } from "../../constants/siteInfo";
+import { siteInfo } from "../../constants/SiteInfo";
 import "./sidelinks.css";
 
 export default function SideLinks() {
